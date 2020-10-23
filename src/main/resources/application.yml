@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:5432/test_db1
+    username: 'user1'
+    password: 'pass1'
+    platform: postgresql
+    driver-class-name: org.postgresql.Driver
+
+
+  second-datasource:
+    jdbc-url: jdbc:postgresql://localhost:5432/test_db2
+    username: 'user2'
+    password: 'pass2'
+    platform: postgresql
+    driver-class-name: org.postgresql.Driver
